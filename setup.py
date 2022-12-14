@@ -2,18 +2,12 @@ import setuptools
 
 setuptools.setup(
     name="sage-importance",
-    version="0.0.4",
-    author="Ian Covert",
-    author_email="icovert@cs.washington.edu",
+    version="0.0.4m",
+    author="Ian Covert, Yilin Ning",
+    author_email="ningyilinnyl@gmail.com",
     description="For calculating global feature importance using Shapley values.",
     long_description="""
-        SAGE (Shapley Additive Global importancE) is a game theoretic approach 
-        for understanding black-box machine learning models. It summarizes each 
-        feature's importance based on the predictive power it contributes, and 
-        it accounts for complex interactions using the Shapley value from 
-        cooperative game theory. See the 
-        [GitHub page](https://github.com/iancovert/sage/) for examples, and see 
-        the [paper](https://arxiv.org/abs/2004.00668) for more details.
+        A slightly modified version of SAGE. See https://github.com/nyilin/sage.
     """,
     long_description_content_type="text/markdown",
     url="https://github.com/iancovert/sage/",

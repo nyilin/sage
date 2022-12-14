@@ -157,7 +157,7 @@ class ImportanceTracker:
             diff = scores - self.mean
             self.mean += (
                 np.sum(diff, axis=0) +
-                self.mean * num_void) / np.maximum(self.N, 1)
+                self.mean * num_void) / max(self.N, 1)
             diff2 = scores - self.mean
             self.sum_squares += (
                 np.sum(diff * diff2, axis=0) -
@@ -170,7 +170,7 @@ class ImportanceTracker:
     @property
     def var(self):
         # print('sum_squares', self.sum_squares)
-        return self.sum_squares / (np.maximum(self.N, 1) ** 2)
+        return self.sum_squares / (max(self.N, 1) ** 2)
 
     @property
     def std(self):
