@@ -1,6 +1,6 @@
 # SAGE with minor modifications
 
-This repository provides a slightly modified version of the [sage Python library](https://github.com/iancovert/sage) (version 0.0.4) to avoid occasional stack overflow on Windows. It is used by the [ShapleyVIC Python library](https://github.com/nliulab/ShapleyVIC) and is assigned a version number "0.0.4m" to differentiate from the version on pip.
+This repository provides a slightly modified version of the [sage Python library](https://github.com/iancovert/sage) (version 0.0.4) to avoid occasional stack overflow on Windows. It is used by the [ShapleyVIC Python library](https://github.com/nliulab/ShapleyVIC) and is assigned a version number "0.0.4b1" to differentiate from the version on pip.
 
 ## Installation
 
