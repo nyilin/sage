@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="sage-importance",
-    version="0.0.4m",
+    version="0.0.4",
     author="Ian Covert, Yilin Ning",
     author_email="ningyilinnyl@gmail.com",
     description="For calculating global feature importance using Shapley values.",
